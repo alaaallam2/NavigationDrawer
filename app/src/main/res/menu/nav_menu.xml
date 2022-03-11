@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title=".................................................................">
+        <menu
+            >
+            <item
+                android:title="Home"
+                android:icon="@drawable/ic_baseline_home_24"
+                android:id="@+id/home"
+                />
+            <item
+                android:title="Our Menu"
+                android:id="@+id/our_menu"
+                android:icon="@drawable/ic_baseline_restaurant_menu_24"
+                />
+            <item
+                android:icon="@drawable/ic_baseline_favorite_24"
+                android:title="favorite"
+                android:id="@+id/favorite"
+                />
+            <item
+                android:title="support"
+                android:id="@+id/support"
+                android:icon="@drawable/ic_baseline_support_24"
+                />
+        </menu>
+    </item>
+
+
+<item android:title="communication">
+<menu>
+    <item
+        android:title="share"
+        android:id="@+id/share"
+        android:icon="@drawable/ic_baseline_share_24"
+        />
+    <item
+        android:title="send"
+        android:id="@+id/send"
+android:icon="@drawable/ic_baseline_send_24"
+        />
+</menu>
+</item>
+    <item
+        android:title="other services">
+        <menu>
+<item
+    android:title="privacy"
+    android:icon="@drawable/ic_baseline_privacy_tip_24"
+    android:id="@+id/privacy"
+    />
+            <item
+                android:title="logout"
+                android:icon="@drawable/ic_baseline_login_24"
+                android:id="@+id/logout"
+                />
+        </menu>
+    </item>
+
+</menu>
